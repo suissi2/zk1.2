@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+logs/
+data/
+exports/
+*.db
+*.mdb
+*.sqlite
+**/__pycache__/
+*.pyc

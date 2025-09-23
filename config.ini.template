@@ -1,0 +1,23 @@
+[ACCESS_DB]
+path = \\srv-hotix\pointage\ATT2000.mdb
+driver = Microsoft Access Driver (*.mdb, *.accdb)
+timeout = 30
+readonly = true
+
+[ZKTECO_DEVICES]
+device_1_ip = 192.168.1.100
+device_1_port = 4370
+device_1_password = 0
+
+[CSV_EXPORT]
+output_directory = %OneDrive%\Attendance\exports\
+filename_pattern = attendance_%Y%m%d_%H%M%S.csv
+auto_backup = true
+backup_time = 23:30
+incremental = true
+keep_days = 365
+
+[LOGGING]
+level = INFO
+file = ./logs/attendance_app.log
+

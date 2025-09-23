@@ -1,0 +1,13 @@
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.sh text eol=lf
+*.py text eol=lf
+*.ini text eol=lf
+*.md  text eol=lf
+# Binary files
+*.db binary
+*.mdb binary
+*.sqlite binary
+*.pyc binary
+*.log text eol=crlf
